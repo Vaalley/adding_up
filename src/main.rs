@@ -13,7 +13,8 @@ fn main() {
 
         let mut user_input = String::new();
         let stdin = io::stdin(); // We get `Stdin` here.
-        stdin.read_line(&mut user_input);
+
+        stdin.read_line(&mut user_input).ok();
 
         if (first_number + second_number).to_string() == user_input.trim() {
             println!("Correct");
