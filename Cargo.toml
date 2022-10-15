@@ -3,6 +3,9 @@ name = "adding_up"
 version = "0.1.0"
 edition = "2021"
 authors = ["Valley <valentin.musset.dev@gmail.com>"]
+repository = "https://github.com/Vaalley/adding_up"
+keywords = ["adding", "numbers", "sum", "addition"]
+description = "A simple script where your goal is to guess the sum of two numbers ranging from 1 to 4999."
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
